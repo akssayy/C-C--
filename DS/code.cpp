@@ -11,7 +11,7 @@ int main()
     {
         if(nums[i] > largest)
         {
-            largest = nums[i];
+            largest = index.of(nums);
         }
     }
  cout << "largest = " << largest << endl;
