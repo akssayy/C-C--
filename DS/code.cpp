@@ -5,15 +5,15 @@ int main()
 {
     int nums[] = {5,15,78,2,1,-13,9};
     int size = 7 ;
-    int smallest = INT_MAX;
+    int largest = INT_MIN;
 
     for(int i=0; i<size; i++)
     {
-        if(nums[i] < smallest)
+        if(nums[i] > largest)
         {
-            smallest = nums[i];
+            largest = nums[i];
         }
     }
- cout << "smallest = " << smallest << endl;
+ cout << "largest = " << largest << endl;
  return 0;
 }
